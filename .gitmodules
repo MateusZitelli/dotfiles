@@ -1,3 +1,6 @@
 [submodule ".vim_runtime"]
 	path = .vim_runtime
 	url = git@github.com:MateusZitelli/vimrc.git
+[submodule "antigen"]
+	path = antigen
+	url = https://github.com/zsh-users/antigen.git
