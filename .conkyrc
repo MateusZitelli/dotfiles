@@ -34,8 +34,6 @@ TEXT
   {"full_text": " B [${execi 60 acpi | cut -d " " -f3-}] ","color":"\#A0B0C0"},
 #Shows upime
 #  {"full_text": " uptime [${uptime_short}] ","color": "\#F0E0D0"},
-# Meteo
-{"full_text": " ${exec /home/poulpix/.i3/meteo.sh} ", "color":"\#268BD2"},
 #Shows time
   {"full_text": " [${time %a %d %b} ${time %H:%M}] ","color": "\#2fdc57"}
 ],
